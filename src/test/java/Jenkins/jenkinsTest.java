@@ -2,9 +2,9 @@ package Jenkins;
 
 import org.testng.annotations.Test;
 
-public class jenkins {
+public class jenkinsTest {
 @Test
-public void jenkins() {
+public void jenkinsTest() {
 	System.out.println("execute create org test");
 	String BROWSER = System.getProperty("browser");
 	String URL=System.getProperty("url");
